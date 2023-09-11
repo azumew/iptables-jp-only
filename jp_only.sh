@@ -1,4 +1,5 @@
 #!/bin/sh
+cd `dirname $0`
 IPTABLES=/sbin/iptables
 $IPTABLES -N ACCEPT_FILTER > /dev/null 2>&1
 wget -q -N http://nami.jp/ipv4bycc/cidr.txt.gz
