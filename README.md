@@ -9,6 +9,8 @@ Copy by https://pcvogel.sarakura.net/2013/06/02/31142
 
 2. Edit `/etc/iptables/rules.v4`
 ```
+■Add (must)
+:ACCEPT_FILTER - [0:0]
 ■example
 -A INPUT -p tcp -m tcp --dport 8123 -m state --state NEW -j ACCEPT_FILTER
 -A INPUT -p tcp -m tcp --dport 25565 -m state --state NEW -j ACCEPT_FILTER
