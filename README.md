@@ -20,4 +20,5 @@ Copy by https://pcvogel.sarakura.net/2013/06/02/31142
 # How to do in launch
 ```
 echo "/root/jp_only.sh" >> /etc/rc.local
+chmod +x /etc/rc.local
 ```
