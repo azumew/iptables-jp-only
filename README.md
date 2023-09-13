@@ -1,6 +1,5 @@
 # iptables-jp-only
-ACCEPT_FILTERチェインにJPのIPアドレスを追加するスクリプトです。
-- 事前にACCEPT_FILTERチェインを作成しておく必要があります。
+iptablesにACCEPT_FILTERチェインを作成し、ACCEPT_FILTERチェインにJPのIPアドレスを追加するスクリプトです。
 - 起動時に自動的にリストを更新するため`/etc/rc.local`を利用します。
 
 inspired by https://pcvogel.sarakura.net/2013/06/02/31142
